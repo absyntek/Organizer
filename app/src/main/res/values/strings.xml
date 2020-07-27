@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_nutriments">Nutriments</string>
+
+    <string name="box_size">box size</string>
+    <string name="xxl">double extra large</string>
+    <string name="xl">extra large</string>
+    <string name="l">large</string>
+    <string name="m">medium</string>
+    <string name="s">small</string>
+    <string name="xs">extra small</string>
+
+    <string name="box_utility">box utility</string>
+    <string name="dry">drying</string>
+    <string name="bloom">flowering</string>
+    <string name="grow">growing</string>
+    <string name="all">all</string>
+    <string name="save">Save</string>
+</resources>
