@@ -9,6 +9,9 @@ interface SystemDao {
     @Query("SELECT * FROM systemkind")
     fun getAll(): LiveData<List<SystemKind>>
 
+    @Query("SELECT * FROM systemkind WHERE id LIKE :id")
+    fun getAllWithId(id: Int): LiveData<List<SystemKind>>
+
     @Insert (onConflict = OnConflictStrategy.REPLACE)
     fun addSystems(systemKind: SystemKind)
 

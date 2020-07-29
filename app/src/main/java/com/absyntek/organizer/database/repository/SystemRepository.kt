@@ -12,6 +12,8 @@ class SystemRepository (context: Context){
 
     val getAllSystems = sysDao.getAll()
 
+    fun getAllSystemsWithId(id:Int) = sysDao.getAllWithId(id)
+
     fun addSystem(vararg sys:SystemKind) {
         sys.forEach {
             sysDao.addSystems(it)

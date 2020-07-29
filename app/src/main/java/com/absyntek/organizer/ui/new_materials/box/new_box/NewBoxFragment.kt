@@ -26,8 +26,6 @@ class NewBoxFragment : Fragment(){
 
     private lateinit var adapter: ArrayAdapter<String>
 
-    private var tmp = 0
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewModel = ViewModelProvider(this, viewModelFactory {

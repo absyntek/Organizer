@@ -16,7 +16,8 @@ data class SystemKind(
     val id: Int,
     val boxId: Int,
     val name: String,
-    val systemKind: Int,
+    val systemUsage: Int,
     val waterLiter: Int,
     val maxPlantSize:Int
 )
+fun emptySystem() = SystemKind(-1,-1,"",-1,-1,-1)
